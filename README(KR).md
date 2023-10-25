@@ -43,15 +43,15 @@ LGBMGRegressor	0.579	0.761	-0.556
 **2. 회귀모형을 이용한 미래 주가 예측**  
  본 프로젝트에서 구현한 회귀모형을 가지고 미래 주가의 방향성을 예측하여 투자자들에게 참고할 만한 자료로 활용될 수 있다. 이러한 회귀모형으로 미래에 대한 주가의 방향성을 예측하였다면 투자자들은 그와 관련된 기업을 찾아 투자하는 것에 있어 선택의 폭을 좁힐 수 있고 투자 위험을 감소시킬 수 있다.  
 **3. 회귀모형의 발전 가능성**   
- 이번 회귀모형은 데이터의 수가 많이 부족했다. 기준년월을 설정하는 것도 5개뿐이라서 100% 성능을 발휘하지 못했다. 하지만 이번 프로젝트로 개발한 회귀모형이 예측한 결과값이 실제값과 차이가 크게 나타나지 않았다. 이 부분은 매우 긍정적이라고 생각한다. 따라서 앞으로 데이터의 양이 늘어난다면 더욱 정밀하고 정확한 모델로 발전할 수 있을 것이다.
+개발한 회귀모형이 예측한 결과값이 실제값과 차이가 크게 나타나지 않았다. 이 부분은 매우 긍정적이라고 생각한다. 따라서 앞으로 데이터의 양이 늘어난다면 더욱 정밀하고 정확한 모델로 발전할 수 있을 것이다.
 
 ### 활용 데이터
-1.BC카드 온라인 품목별 소비 데이터
-2.KRX한국거래소 전종목 등락률 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd
-3.KRX한국거래소 전종목 시세 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd
-4.온라인 쇼핑 동향조사 https://kosis.kr/index/index.do
-5.소비자심리지수 https://kosis.kr/index/index.do
-6.민간소비증감률(실질, 계절조정 전기대비) https://ecos.bok.or.kr/jsp/vis/keystat/#/key
-7.코로나 확진자 수 http://ncov.mohw.go.kr/
-8.소비자 물가지수 https://kostat.go.kr/incomeNcpi/cpi/cpi_td/2/1/index.action?bmode=cpidtval
-9.경제심리지수  https://ecos.bok.or.kr/jsp/vis/keystat/#/key
+1.BC카드 온라인 품목별 소비 데이터  
+2.KRX한국거래소 전종목 등락률 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd  
+3.KRX한국거래소 전종목 시세 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd  
+4.온라인 쇼핑 동향조사 https://kosis.kr/index/index.do  
+5.소비자심리지수 https://kosis.kr/index/index.do    
+6.민간소비증감률(실질, 계절조정 전기대비) https://ecos.bok.or.kr/jsp/vis/keystat/#/key    
+7.코로나 확진자 수 http://ncov.mohw.go.kr/     
+8.소비자 물가지수 https://kostat.go.kr/incomeNcpi/cpi/cpi_td/2/1/index.action?bmode=cpidtval   
+9.경제심리지수  https://ecos.bok.or.kr/jsp/vis/keystat/#/key   
