@@ -18,11 +18,11 @@
 - **주가지수에 대한 회귀분석 실행:** RandomForestRegressor 모델 등을 사용하여 주가지수 예측. 하이퍼파라미터 튜닝을 통한 모델 성능 개선.
 - **회귀분석식에 쓰인 설명변수들의 중요도 분석:** PCA를 통한 변수 축소 후 모델의 설명변수 중요도 분석.
 - **PoC를 위한 실제값과 주가 방향성을 예측한 값의 비교:** 모델 검증을 통해 실제값과 예측값의 방향성 일치 확인.
-	MSE	R2MSE	Variance score
-RandomForestRegressor	0.093	0.305	0.750
-GBMR80egressor	0.115	0.339	0.692
-XGBRegressor	0.102	0.319	0.727
-LGBMGRegressor	0.579	0.761	-0.556
+|MSE|R2MSE|Variance|score|
+|RandomForestRegressor|0.093|0.305|0.750|
+|GBMR80egressor|0.115|0.339|0.692|
+|XGBRegressor|0.102|0.319|0.727|
+|LGBMGRegressor|0.579|0.761|-0.556|
 
 ### 분석 요약
 - 온라인 소비와 주가지수 간 강한 양의 상관관계 확인.  
