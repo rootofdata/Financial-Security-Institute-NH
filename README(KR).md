@@ -60,12 +60,12 @@
 개발한 회귀모형이 예측한 결과값이 실제값과 차이가 크게 나타나지 않았다. 이 부분은 매우 긍정적이라고 생각한다. 따라서 앞으로 데이터의 양이 늘어난다면 더욱 정밀하고 정확한 모델로 발전할 수 있을 것이다.
 
 ### 활용 데이터
-1.BC카드 온라인 품목별 소비 데이터  
-2.KRX한국거래소 전종목 등락률 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd  
-3.KRX한국거래소 전종목 시세 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd  
-4.온라인 쇼핑 동향조사 https://kosis.kr/index/index.do  
-5.소비자심리지수 https://kosis.kr/index/index.do    
-6.민간소비증감률(실질, 계절조정 전기대비) https://ecos.bok.or.kr/jsp/vis/keystat/#/key    
-7.코로나 확진자 수 http://ncov.mohw.go.kr/     
-8.소비자 물가지수 https://kostat.go.kr/incomeNcpi/cpi/cpi_td/2/1/index.action?bmode=cpidtval   
-9.경제심리지수  https://ecos.bok.or.kr/jsp/vis/keystat/#/key   
+- BC카드 온라인 품목별 소비 데이터  
+- KRX한국거래소 전종목 등락률 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd  
+- KRX한국거래소 전종목 시세 http://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd  
+- 온라인 쇼핑 동향조사 https://kosis.kr/index/index.do  
+- 소비자심리지수 https://kosis.kr/index/index.do    
+- 민간소비증감률(실질, 계절조정 전기대비) https://ecos.bok.or.kr/jsp/vis/keystat/#/key    
+- 코로나 확진자 수 http://ncov.mohw.go.kr/     
+- 소비자 물가지수 https://kostat.go.kr/incomeNcpi/cpi/cpi_td/2/1/index.action?bmode=cpidtval   
+- 경제심리지수  https://ecos.bok.or.kr/jsp/vis/keystat/#/key   
