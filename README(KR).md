@@ -1,31 +1,34 @@
 ## 주제: 온라인 품목별 소비 데이터와 주가지수의 상관관계 분석 및 예측 모델 개발
 - 온라인 품목별 소비 데이터와 소비와 관련된 설명변수들을 이용하여 주가지수와의 상관관계를 파악하고 주가지수에 미치는 정도를 비교한다. 
 - 주가지수의 움직임과 관련성이 큰 변수들을 추출하여 회귀모형을 개발하고 이를 통해 미래의 주가 방향성에 대해 예측한다.
-![image](https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632)
+
 
 ### 배경 및 필요성
 - **소비에 대한 관심 증가**: COVID-19 팬데믹으로 인해 소비의 중요성이 부각되고 있음.
 - **코로나 상황으로 온라인 소비 증가**: 온라인 소비가 증가하는 추세, 개인투자자들의 주식시장 진입 증가.
 - **주식에 대한 개인의 관심도 증가**
-![image](https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d)
 
 ### 아이디어 제안 및 분석
 - **소비와 주가의 연관성 파악 방향성:** 온라인 소비와 주가지수의 상관관계를 분석하여 방향성 예측 모델 개발.
 - **소비 시각화 자료:** 온라인 품목별 소비 데이터 시각화를 통해 주요 대분류 도출.
 - **4개 대분류별 주가지수 설정:** 주가지수를 대분류에 따라 설정하고 관련 종목의 시가총액 기준 계산.
+![image](https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632)
+![image](https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d)
 - **데이터의 Upsampling:** 온라인 소비 데이터 Upsampling을 통해 더 많은 데이터 생성.
 - **다중 공선성 처리:** 상관계수 분석 및 PCA 기법을 사용하여 설명변수 축소 및 다중 공선성 해결.
 - **주가지수에 대한 회귀분석 실행:** RandomForestRegressor 모델 등을 사용하여 주가지수 예측. 하이퍼파라미터 튜닝을 통한 모델 성능 개선.  
-- **회귀분석식에 쓰인 설명변수들의 중요도 분석:** PCA를 통한 변수 축소 후 모델의 설명변수 중요도 분석.  
-- **PoC를 위한 실제값과 주가 방향성을 예측한 값의 비교:** 모델 검증을 통해 실제값과 예측값의 방향성 일치 확인.
-
    
 |MSE|R2MSE|Variance|score|
-|------|---|---|---|
+|:------:|---|:---:|:---:|
 |RandomForestRegressor|0.093|0.305|0.750|
 |GBMR80egressor|0.115|0.339|0.692|
 |XGBRegressor|0.102|0.319|0.727|
 |LGBMGRegressor|0.579|0.761|-0.556|
+
+- **회귀분석식에 쓰인 설명변수들의 중요도 분석:** PCA를 통한 변수 축소 후 모델의 설명변수 중요도 분석.  
+- **PoC를 위한 실제값과 주가 방향성을 예측한 값의 비교:** 모델 검증을 통해 실제값과 예측값의 방향성 일치 확인.
+  
+![image](https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/b1b75d02-9179-4901-ba36-f4b311fbdf4d)
 
 ### 분석 요약
 - 온라인 소비와 주가지수 간 강한 양의 상관관계 확인.  
