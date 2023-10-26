@@ -18,7 +18,7 @@
 - **4개 대분류별 주가지수 설정:** 주가지수를 대분류에 따라 설정하고 관련 종목의 시가총액 기준 계산.
 
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d",width="550" height="350/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/1e36ff19-ada3-4625-bcc2-a5653e2103c6",width="550" height="350/">
 </p> 
 
 - **데이터의 Upsampling:** 온라인 소비 데이터 Upsampling을 통해 더 많은 데이터 생성.
