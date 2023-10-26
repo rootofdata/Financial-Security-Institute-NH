@@ -29,7 +29,7 @@
 
 
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/b1b75d02-9179-4901-ba36-f4b311fbdf4d",width="450" height="300/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/f3c85b95-fce7-46c5-8dd8-ed3a55eb0f7e",width="450" height="300/">
 </p> 
 
 ### 분석 요약
@@ -37,9 +37,6 @@
 - 주요 대분류 중 e상품/서비스가 주가 방향성을 예측하는데 중요한 역할.  
 - 다중 공선성 처리와 변수 축소를 통해 모델의 정확도 향상.  
 - PoC를 통해 모델의 예측 정확성 확인.
-<p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/25ce7814-1407-411e-9520-1c9ad43d66ad",width="450" height="300/">
-</p> 
 
 |Algorithm|MSE|R2MSE|Variancescore|
 |:------:|---|:---:|:---:|
