@@ -13,10 +13,10 @@
 - **소비 시각화 자료:** 온라인 품목별 소비 데이터 시각화를 통해 주요 대분류 도출.
 - **4개 대분류별 주가지수 설정:** 주가지수를 대분류에 따라 설정하고 관련 종목의 시가총액 기준 계산.
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632",width="300" height="200/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632",width="400" height="250/">
 </p> 
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d",width="300" height="200/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d",width="400" height="250/">
 </p> 
 - **데이터의 Upsampling:** 온라인 소비 데이터 Upsampling을 통해 더 많은 데이터 생성.
 - **다중 공선성 처리:** 상관계수 분석 및 PCA 기법을 사용하여 설명변수 축소 및 다중 공선성 해결.
@@ -32,7 +32,7 @@
 - **회귀분석식에 쓰인 설명변수들의 중요도 분석:** PCA를 통한 변수 축소 후 모델의 설명변수 중요도 분석.  
 - **PoC를 위한 실제값과 주가 방향성을 예측한 값의 비교:** 모델 검증을 통해 실제값과 예측값의 방향성 일치 확인.
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/b1b75d02-9179-4901-ba36-f4b311fbdf4d",width="300" height="200/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/b1b75d02-9179-4901-ba36-f4b311fbdf4d",width="400" height="300/">
 </p> 
 
 ### 분석 요약
@@ -41,7 +41,7 @@
 - 다중 공선성 처리와 변수 축소를 통해 모델의 정확도 향상.  
 - PoC를 통해 모델의 예측 정확성 확인.
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/25ce7814-1407-411e-9520-1c9ad43d66ad",width="250" height="500/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/25ce7814-1407-411e-9520-1c9ad43d66ad",width="450" height="250/">
 </p> 
 
 
