@@ -22,16 +22,10 @@
 - **데이터의 Upsampling:** 온라인 소비 데이터 Upsampling을 통해 더 많은 데이터 생성.
 - **다중 공선성 처리:** 상관계수 분석 및 PCA 기법을 사용하여 설명변수 축소 및 다중 공선성 해결.
 - **주가지수에 대한 회귀분석 실행:** RandomForestRegressor 모델 등을 사용하여 주가지수 예측. 하이퍼파라미터 튜닝을 통한 모델 성능 개선.  
-   
-|Algorithm|MSE|R2MSE|Variancescore|
-|:------:|---|:---:|:---:|
-|RandomForestRegressor|0.093|0.305|0.750|
-|GBMR80egressor|0.115|0.339|0.692|
-|XGBRegressor|0.102|0.319|0.727|
-|LGBMGRegressor|0.579|0.761|-0.556|
-
 - **회귀분석식에 쓰인 설명변수들의 중요도 분석:** PCA를 통한 변수 축소 후 모델의 설명변수 중요도 분석.  
 - **PoC를 위한 실제값과 주가 방향성을 예측한 값의 비교:** 모델 검증을 통해 실제값과 예측값의 방향성 일치 확인.
+
+
 <p align="center">
  <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/b1b75d02-9179-4901-ba36-f4b311fbdf4d",width="450" height="300/">
 </p> 
@@ -45,6 +39,12 @@
  <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/25ce7814-1407-411e-9520-1c9ad43d66ad",width="450" height="300/">
 </p> 
 
+|Algorithm|MSE|R2MSE|Variancescore|
+|:------:|---|:---:|:---:|
+|RandomForestRegressor|0.093|0.305|0.750|
+|GBMR80egressor|0.115|0.339|0.692|
+|XGBRegressor|0.102|0.319|0.727|
+|LGBMGRegressor|0.579|0.761|-0.556|
 
 ### 분석 결과
 - 소비와 밀접한 관계를 형성하고 있는 지표들을 통해 기대 수익률을 높일 수 있다.  
