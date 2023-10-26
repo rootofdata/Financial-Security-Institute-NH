@@ -16,8 +16,9 @@
  <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632",width="500" height="350/">
 </p> 
 <p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d",width="450" height="250/">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d",width="550" height="250/">
 </p> 
+
 - **데이터의 Upsampling:** 온라인 소비 데이터 Upsampling을 통해 더 많은 데이터 생성.
 - **다중 공선성 처리:** 상관계수 분석 및 PCA 기법을 사용하여 설명변수 축소 및 다중 공선성 해결.
 - **주가지수에 대한 회귀분석 실행:** RandomForestRegressor 모델 등을 사용하여 주가지수 예측. 하이퍼파라미터 튜닝을 통한 모델 성능 개선.  
