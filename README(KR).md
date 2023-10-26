@@ -8,13 +8,15 @@
 - **코로나 상황으로 온라인 소비 증가**: 온라인 소비가 증가하는 추세, 개인투자자들의 주식시장 진입 증가.
 - **주식에 대한 개인의 관심도 증가**
 
+<p align="center">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632",width="500" height="400/">
+</p> 
+
 ### 아이디어 제안 및 분석
 - **소비와 주가의 연관성 파악 방향성:** 온라인 소비와 주가지수의 상관관계를 분석하여 방향성 예측 모델 개발.
 - **소비 시각화 자료:** 온라인 품목별 소비 데이터 시각화를 통해 주요 대분류 도출.
 - **4개 대분류별 주가지수 설정:** 주가지수를 대분류에 따라 설정하고 관련 종목의 시가총액 기준 계산.
-<p align="center">
- <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632",width="500" height="350/">
-</p> 
+
 <p align="center">
  <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/57298ebc-a7ef-42fa-9d5c-8e6c89eeeb4d",width="550" height="350/">
 </p> 
