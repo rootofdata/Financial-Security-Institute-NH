@@ -4,28 +4,43 @@
 ### Background and Significance:
 - Increasing Interest in Consumer Behavior: The importance of consumer behavior has been highlighted due to the COVID-19 pandemic.  
 - Rise in Online Consumption Amidst COVID-19: A growing trend in online consumption and increased participation of individual investors in the stock market.  
-- Heightened Individual Interest in Stocks.  
+- Heightened Individual Interest in Stocks.
+
+<p align="center">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/4c58d1fe-5ab5-43fc-8201-3481bf6da632",width="500" height="400/">
+</p> 
 
 ### Idea and Analysis:
 - Understanding the Relationship between Consumption and Stocks: Analyze the correlation between online consumption and stock indices to develop a predictive model.
 - Visualization of Consumption Data: Derive major categories through visualization of online item-specific consumer data.
 - Setting Stock Indices for Four Categories: Set stock indices according to major categories and calculate market capitalization for relevant stocks.
+
+<p align="center">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/1e36ff19-ada3-4625-bcc2-a5653e2103c6",width="550" height="350/">
+</p> 
+
 - Upsampling of Data: Generate more data through upsampling of online consumer data.
 - Handling Multicollinearity: Reduce explanatory variables using correlation analysis and PCA techniques to handle multicollinearity.
 - Regression Analysis for Stock Indices: Use models like RandomForestRegressor for predicting stock indices, enhancing model performance through hyperparameter tuning.
 - Analysis of Variable Importance in Regression Equation: Analyze importance of variables in the model after dimensionality reduction using PCA.
 - Comparison of Actual Values and Predicted Stock Trends for Proof of Concept (PoC): Validate the model by comparing the directionality of actual and predicted values.
 
+<p align="center">
+ <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/f3c85b95-fce7-46c5-8dd8-ed3a55eb0f7e",width="450" height="300/">
+</p> 
+
 ### Summary of Analysis:
 - Confirmed strong positive correlation between online consumption and stock indices.
 - E-commerce products/services played a crucial role in predicting stock trends among major categories.
 - Enhanced model accuracy through handling multicollinearity and variable reduction.
 - Validation of model accuracy through PoC, comparing actual and predicted trends.
-Algorithm MSE R2MSE Variance Score
-RandomForestRegressor 0.093 0.305 0.750
-GBMRegressor 0.115 0.339 0.692
-XGBRegressor 0.102 0.319 0.727
-LGBMRegressor 0.579 0.761 -0.556
+
+|Algorithm|MSE|R2MSE|Variancescore|
+|:------:|---|:---:|:---:|
+|RandomForestRegressor|0.093|0.305|0.750|
+|GBMR80egressor|0.115|0.339|0.692|
+|XGBRegressor|0.102|0.319|0.727|
+|LGBMGRegressor|0.579|0.761|-0.556|
 
 ### Analysis Results:
 - Indicators closely related to consumption can increase expected returns.
