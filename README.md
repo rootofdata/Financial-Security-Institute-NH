@@ -24,7 +24,7 @@
 - Regression Analysis for Stock Indices: Use models like RandomForestRegressor for predicting stock indices, enhancing model performance through hyperparameter tuning.
 - Analysis of Variable Importance in Regression Equation: Analyze importance of variables in the model after dimensionality reduction using PCA.
 - Comparison of Actual Values and Predicted Stock Trends for Proof of Concept (PoC): Validate the model by comparing the directionality of actual and predicted values.
-
+  
 <p align="center">
  <img src="https://github.com/rootofdata/Financial-Security-Institute-NH/assets/86711374/f3c85b95-fce7-46c5-8dd8-ed3a55eb0f7e",width="450" height="300/">
 </p> 
