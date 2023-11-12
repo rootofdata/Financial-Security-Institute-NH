@@ -1,5 +1,5 @@
 # Financial-Security-Institute-NH
-## Title: Analysis and Prediction Model Development of the Correlation between Online Item-specific Consumer Data and Stock Indices
+## Analysis and Prediction Model Development of the Correlation between Online Item-specific Consumer Data and Stock Indices
 
 ### Background and Significance:
 - Increasing Interest in Consumer Behavior: The importance of consumer behavior has been highlighted due to the COVID-19 pandemic.  
